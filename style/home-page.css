@@ -1,20 +1,18 @@
 html{
   background:#011627;
-  height:auto;
-  width:auto;
   color:white;
+  height:100%;
+  width:100%;
+
   }
   body{
-    height:auto;
-    width:auto;
+    height:100%;
+    width:100%;
   }
-#owncloud{
-  padding-top:13%;
-  overflow: hidden;
-  max-width:400px;
-  margin:auto;
+.item{
+  width:300px;
   height:auto;
-  clear:left;
+
 }
 .container{
   width:100%;
@@ -22,7 +20,13 @@ html{
   margin:auto;
   text-align: center;
   font-family: sans-serif;
-
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+img{
+  width:100%;
+  border-radius: 20px;
 }
 .links{
   width: 100%;
